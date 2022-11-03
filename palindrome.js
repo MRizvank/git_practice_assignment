@@ -1,14 +1,13 @@
 //Check if the Number is a palindrome
-let str = "dad"
-var bag = "" ;
-
-
-for(var  i = str.length-1; i>=0 ; i--) {
-  bag += str[i];
+let string="aba";
+let new_String="";
+for(let i=string.length-1;i>=0;i--){
+	new_String+=string[i];
 }
-if(str == bag){
-  console.log("Yes");
+if(string==new_String){
+	console.log(string,"Yes,This is a palindromic srtring");
 }else{
-  console.log("No");
+	console.log(string,"No, This is not a palindromic string");
 }
+	
 //please find the error
