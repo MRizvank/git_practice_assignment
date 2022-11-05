@@ -1,10 +1,10 @@
 let number = 13;
-let count=0;
+let coun=0;
     for(let i=1; i<=number; i++){
         if(number%i==0){
-            count++;
+            coun++;
         }
-    }if (count==2){
+    }if (coun==2){
         console.log(number,"Yes It's a prime number");
         
     }else{
